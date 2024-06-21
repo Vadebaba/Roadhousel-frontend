@@ -4,7 +4,7 @@ import payment from '/payment.png'
 
 const Footer = () => {
     return (
-        <div className='mt-8 mb-5 mx-8 lg:mx-52'>
+        <div className='mt-8 mb-5 mx-4 lg:mx-52'>
             <div className="flex gap-12">
                 <div className="flex flex-1 flex-col gap-2 text-[14px] text-justify">
                     <h1 className='text-[18px] font-[500] text-[#555]'>Categories</h1>
@@ -31,19 +31,10 @@ const Footer = () => {
                     </span>
                 </div>
 
-                {/* <div className="flex flex-1 flex-col gap-2 text-[14px] text-justify">
-                    <h1 className='text-[18px] font-[500] text-[#555]'>Contact Us</h1>
-                    <span className='span'>
-                        Tel: +123-456-7890
-                        <br/>
-                        Email: RoadHousemall@gmail.com                
-                    </span> 
-<div className="flex items-center justify-between mt-7">
             
-    </div>*/}
-            </div>
-            <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-     
+           </div> 
+
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 mt-16">
                 <div className="flex items-center ">
                     <span className="font-bold text-[24px] text-[#2879fe] ">ROADHOUSE</span>
                     <span className="ml-[20px] text-[12px] text-[gray]">© 2024. All Rights Reserved</span>
@@ -52,6 +43,7 @@ const Footer = () => {
                     <img className="h-[50px]" src={payment} alt="" />
                 </div>
             </div>
+
         </div>
     )
 }
@@ -59,17 +51,18 @@ const Footer = () => {
 export default Footer
 
 
-
-
-
-
-
-
-
-
-
-
-{/*Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+{/*
+        <div className="flex flex-1 flex-col gap-2 text-[14px] text-justify">
+                    <h1 className='text-[18px] font-[500] text-[#555]'>Contact Us</h1>
+                    <span className='span'>
+                        Tel: +123-456-7890
+                        <br />
+                        Email: RoadHousemall@gmail.com
+                    </span>
+                </div>  
+ 
+ 
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Architecto voluptatem molestias cupiditate possimus ipsum saepe,
                         iste, pariatur voluptate, quos temporibus est placeat quidem omnis.
                         Accusantium laudantium ex accusamus quia eveniet.
@@ -139,7 +132,15 @@ const FooterColumn = ({ title, children }) => {
             {children}
         </div>
     );
-}
-
-export default Footer
 */}
+
+
+
+
+
+
+
+
+
+
+

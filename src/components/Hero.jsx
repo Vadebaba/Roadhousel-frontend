@@ -17,7 +17,7 @@ const Hero = () => {
             id: 2,
             title: "Winter Sale Collections",
             description: "Sale! Up to 50% off!",
-            img:"https://images.unsplash.com/photo-1559697242-a465f2578a95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxmYXNoaW9ufGVufDB8fDB8fHww",
+            img:"https://images.unsplash.com/photo-1623040594025-0105b33ea998?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
               url: "/",
             bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
         },
@@ -25,7 +25,7 @@ const Hero = () => {
             id: 3,
             title: "Spring Sale Collections",
             description: "Sale! Up to 50% off!",
-            img: "https://images.unsplash.com/photo-1632149877166-f75d49000351?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            img: "https://images.unsplash.com/photo-1623040590392-770440f59d67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE1fHxtZW4lMjBmYXNoaW9ufGVufDB8MHwwfHx8MA%3D%3D",
             url: "/",
             bg: "bg-gradient-to-r from-yellow-50 to-pink-50",
         },
@@ -91,7 +91,7 @@ const Hero = () => {
                                 src={data.img}
                                 alt=""
                                 //fill
-                              // sizes="100%"
+                              // sizes="100%"xl:gap-[85rem] gap-[16rem]
                                 className="object-cover"
                             />
                         </div>
@@ -101,11 +101,11 @@ const Hero = () => {
 
             </div>
 
-            <div className="icons xl:gap-[85rem] gap-[16rem] ">
-                <div className="icon" onClick={prevSlide}>
+            <div className="icons ">
+                <div className="iconleft relative xl:right-[-2rem]" onClick={prevSlide}>
                     <MdArrowBackIos className='w-9 h-9' />
                 </div>
-                <div className="icon" onClick={nextSlide}>
+                <div className="iconright relative xl:left-[75rem] left-[16rem]" onClick={nextSlide}>
                     <MdArrowForwardIos className='w-9 h-9' />
                 </div>
             </div>
@@ -113,4 +113,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

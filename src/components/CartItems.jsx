@@ -11,10 +11,10 @@ const CartItems = () => {
         <section className='max_padd_container pt-28'>
             <table className='w-full mx-auto'>
                 <thead>
-                    <tr className='bg-slate-900/10 regular-18 sm:regular-22
-                    tex-start py-12'>
+                    <tr className='bg-slate-900/10 xl:regular-18
+                    text-start py-12'>
                         <th className='p-1 py-2'> Products</th>
-                        <th className='p-1 py-2'> Title</th>
+                        <th className='p-1 py-2 lg:hidden hidden'> Title</th>
                         <th className='p-1 py-2'> Price</th>
                         <th className='p-1 py-2'> Quantity</th>
                         <th className='p-1 py-2'> Total</th>
@@ -70,7 +70,7 @@ const CartItems = () => {
                         <h4 className='bold-20 capitalize'>Enter your coupon code here:</h4>
                         <div className='flexBetween pl-5 h-12 bg-primary rounded-full ring-1 ring-slate-900/10'>
                             <input type="text" placeholder='Coupon code' className='bg-transparent border-none outline-none'/>
-                            <button className='btn_dark_rounded'>Submit</button>
+                            <button className='btn_dark_rounded ml-[-5rem]'>Submit</button>
                         </div>
                     </div>
                 </div>
