@@ -70,7 +70,7 @@ const CartItems = () => {
                         <h4 className='bold-20 capitalize'>Enter your coupon code here:</h4>
                         <div className='flexBetween pl-5 h-12 bg-primary rounded-full ring-1 ring-slate-900/10'>
                             <input type="text" placeholder='Coupon code' className='bg-transparent border-none outline-none'/>
-                            <button className='btn_dark_rounded ml-[-5rem]'>Submit</button>
+                            <button className='btn_dark_rounded ml-[-6rem]'>Submit</button>
                         </div>
                     </div>
                 </div>

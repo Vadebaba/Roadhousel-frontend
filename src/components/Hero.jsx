@@ -105,7 +105,7 @@ const Hero = () => {
                 <div className="iconleft relative xl:right-[-2rem]" onClick={prevSlide}>
                     <MdArrowBackIos className='w-9 h-9' />
                 </div>
-                <div className="iconright relative xl:left-[75rem] left-[16rem]" onClick={nextSlide}>
+                <div className="iconright relative xl:left-[75rem] left-[15.5rem]" onClick={nextSlide}>
                     <MdArrowForwardIos className='w-9 h-9' />
                 </div>
             </div>
